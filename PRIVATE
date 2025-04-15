@@ -42,7 +42,7 @@ execBtn.MouseButton1Click:Connect(function()
 		local f = loadstring(box.Text)
 		if f then f() else warn("Invalid script.") end
 	else
-		warn("Please inject first!")
+		warn("Please inject first! Nigga")
 	end
 end)
 
