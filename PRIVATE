@@ -1,0 +1,51 @@
+local p = game.Players.LocalPlayer
+local gui = Instance.new("ScreenGui", p:WaitForChild("PlayerGui"))
+gui.Name = "RobloxStudioExec"
+gui.ResetOnSpawn = false
+
+local frame = Instance.new("Frame", gui)
+frame.Size = UDim2.new(0, 300, 0, 200)
+frame.Position = UDim2.new(0.5, -150, 0.5, -100)
+frame.BackgroundColor3 = Color3.fromRGB(255, 0, 255)
+frame.Active, frame.Draggable = true, true
+
+local function createBtn(txt, y, color)
+	local btn = Instance.new("TextButton", frame)
+	btn.Size = UDim2.new(0, 280, 0, 30)
+	btn.Position = UDim2.new(0, 10, 0, y)
+	btn.Text = txt
+	btn.BackgroundColor3 = color
+	return btn
+end
+
+local injected = false
+local injectBtn = createBtn("Inject", 10, Color3.fromRGB(0, 255, 255))
+
+local box = Instance.new("TextBox", frame)
+box.Size = UDim2.new(0, 280, 0, 100)
+box.Position = UDim2.new(0, 10, 0, 50)
+box.Text = "-- Enter script here"
+box.ClearTextOnFocus, box.MultiLine = false, true
+box.TextWrapped, box.TextYAlignment = true, Enum.TextYAlignment.Top
+
+local execBtn = createBtn("Execute", 160, Color3.fromRGB(0, 255, 127))
+local clearBtn = createBtn("Clear", 130, Color3.fromRGB(255, 165, 0)) -- NEW BUTTON
+
+injectBtn.MouseButton1Click:Connect(function()
+	injected = true
+	injectBtn.Text = "Injected"
+	injectBtn.BackgroundColor3 = Color3.fromRGB(0, 200, 200)
+end)
+
+execBtn.MouseButton1Click:Connect(function()
+	if injected then
+		local f = loadstring(box.Text)
+		if f then f() else warn("Invalid script.") end
+	else
+		warn("Please inject first!")
+	end
+end)
+
+clearBtn.MouseButton1Click:Connect(function()
+	box.Text = ""
+end)
