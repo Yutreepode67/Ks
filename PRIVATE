@@ -55,14 +55,14 @@ openBtn.MouseButton1Click:Connect(function()
 	end
 
 	-- Buttons for external scripts
-	createButton("Super Gui", 40, function()
+	createButton("Polaira Lua", 40, function()
 		pcall(function() loadstring(game:HttpGet("https://pastefy.app/agqEB2qs/raw"))() end)
 	end)
 	createButton("topk3k", 80, function()
-		pcall(function() loadstring(game:HttpGet("https://pastebin.com/raw/6qaaCgMs"))() end)
+		pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/contingency1111/topk3k-4.0/refs/heads/main/topk3k-4.0.lua"))() end)
 	end)
 	createButton("sheldoni", 120, function()
-		pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/ejabar65/sheldoni/refs/heads/main/README.md"))() end)
+		pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/hi822010/TopSecret/refs/heads/main/Secret.lua"))() end)
 	end)
 	createButton("Sf Executor", 160, function()
 		pcall(function() loadstring(game:HttpGet("https://pastefy.app/xj9lkBIv/raw"))() end)
