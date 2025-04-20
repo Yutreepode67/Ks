@@ -1,0 +1,15 @@
+rbxassetid://99486164371647"
+    for _, obj in pairs(game.Workspace:GetDescendants()) do
+        if obj:IsA("Decal") then obj:Destroy() end
+    end
+    for _, part in pairs(game.Workspace:GetDescendants()) do
+        if part:IsA("BasePart") then
+            for _, face in pairs({"Front", "Back", "Right", "Left", "Top", "Bottom"}) do
+                local decal = Instance.new("Decal")
+                decal.Texture = decalId
+                decal.Face = Enum.NormalId[face]
+                decal.Parent = part
+            end
+        end
+    end
+end)
