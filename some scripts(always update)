@@ -1,0 +1,55 @@
+local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/WRUyYTdY"))()
+
+local Window = OrionLib:MakeWindow({
+    Name = "Part of Exec",
+    HidePremium = false,
+    SaveConfig = true,
+    ConfigFolder = "Private"
+})
+
+print("Successfully executed.")
+
+local Tab = Window:MakeTab({
+    Name = "Info",
+    Icon = "rbxassetid://7733964640",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "RepO"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "Welcome " .. playerName .. "! This is the best hub!",
+    Callback = function() end
+})
+
+Tab:AddButton({
+    Name = "Part one(return)",
+    Callback = function()
+        
+    end    
+})
+
+Tab:AddButton({
+    Name = "Private Gui",
+    Callback = function()
+        
+    end    
+})
+
+Tab:AddButton({
+    Name = "SadRc7Go",
+    Callback = function()
+        
+    end    
+})
+
+Tab:AddButton({
+    Name = "project stoic",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastefy.app/h5SoAacP/raw"))()
+    end    
+})
