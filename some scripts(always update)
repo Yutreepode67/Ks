@@ -27,7 +27,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "k00pgui fanbase",
+    Name = "k00pgui fanbase(pass-k00pkidd)",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/NpwbjHes"))()
     end    
