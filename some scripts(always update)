@@ -27,23 +27,23 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Part one(return)",
+    Name = "k00pgui fanbase",
     Callback = function()
-        
+        loadstring(game:HttpGet("https://pastebin.com/raw/NpwbjHes"))()
     end    
 })
 
 Tab:AddButton({
-    Name = "Private Gui",
+    Name = "k00pgui v11",
     Callback = function()
-        
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/k00pgui/refs/heads/main/k00pgui%20v11%20(2).txt"))()
     end    
 })
 
 Tab:AddButton({
-    Name = "SadRc7Go",
+    Name = "k00pgui v12",
     Callback = function()
-        
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/k00pgui/refs/heads/main/client%20side%20k00p%20v12.txt"))()
     end    
 })
 
