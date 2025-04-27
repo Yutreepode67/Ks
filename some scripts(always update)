@@ -53,3 +53,10 @@ Tab:AddButton({
         loadstring(game:HttpGet("https://pastefy.app/h5SoAacP/raw"))()
     end    
 })
+
+Tab:AddButton({
+    Name = "Fe Bypass by GOODRc7",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/swanhtetm/swanhtetm/refs/heads/main/Fe_Bypass_By_Goodrc7.txt"))()
+    end    
+})
