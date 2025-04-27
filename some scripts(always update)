@@ -34,9 +34,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "k00pgui v11",
+    Name = "idk this gui",
     Callback = function()
-        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/k00pgui/refs/heads/main/k00pgui%20v11%20(2).txt"))()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/swanhtetm/swanhtetm/refs/heads/main/DeepSeek.txt"))()
     end    
 })
 
