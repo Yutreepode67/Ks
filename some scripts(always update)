@@ -34,9 +34,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "idk this gui",
+    Name = "Project Ligma",
     Callback = function()
-        loadstring(Game:HttpGet("https://raw.githubusercontent.com/swanhtetm/swanhtetm/refs/heads/main/DeepSeek.txt"))()
+        loadstring(game:HttpGet("https://pastebin.com/raw/X5ysZxnA"))()
     end    
 })
 
@@ -72,5 +72,12 @@ Tab:AddButton({
     Name = "Minigun",
     Callback = function()
         loadstring(game:HttpGet("https://gist.githubusercontent.com/MelonsStuff/e7b408abcb813525d37e9b7a6bf301c9/raw/6421f9000e90e8a4c2ed57052208acbd6f9648dd/Minigun.txt"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "Private gui by noob",
+    Callback = function()
+         loadstring(Game:HttpGet("https://pastebin.com/raw/BvwJbYgq"))()
     end    
 })
