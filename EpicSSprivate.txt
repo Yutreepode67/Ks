@@ -1,0 +1,213 @@
+
+-- Cria a GUI
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextBox = Instance.new("TextBox")
+local ExecuteButton = Instance.new("TextButton")
+local ClearButton = Instance.new("TextButton")
+local HideButton = Instance.new("TextButton")
+local Title = Instance.new("TextLabel")
+local SidePanel = Instance.new("ScrollingFrame")
+local CloseButton = Instance.new("TextButton")
+local MinimizeButton = Instance.new("TextButton")
+
+-- Propriedades da GUI
+ScreenGui.Parent = game.CoreGui
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
+Frame.Position = UDim2.new(0.5, -300, 0.5, -200)
+Frame.Size = UDim2.new(0, 600, 0, 400)
+Frame.AnchorPoint = Vector2.new(0.5, 0.5)
+Frame.Active = true
+Frame.Draggable = true
+
+Title.Parent = Frame
+Title.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Title.Size = UDim2.new(1, 0, 0, 25)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "Epic ServerSide| Private version"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 18
+
+CloseButton.Parent = Frame
+CloseButton.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+CloseButton.Position = UDim2.new(1, -25, 0, 0)
+CloseButton.Size = UDim2.new(0, 25, 0, 25)
+CloseButton.Font = Enum.Font.SourceSans
+CloseButton.Text = "X"
+CloseButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+CloseButton.TextSize = 18
+
+MinimizeButton.Parent = Frame
+MinimizeButton.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+MinimizeButton.Position = UDim2.new(1, -50, 0, 0)
+MinimizeButton.Size = UDim2.new(0, 25, 0, 25)
+MinimizeButton.Font = Enum.Font.SourceSans
+MinimizeButton.Text = "-"
+MinimizeButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+MinimizeButton.TextSize = 18
+
+TextBox.Parent = Frame
+TextBox.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+TextBox.Position = UDim2.new(0, 10, 0, 35)
+TextBox.Size = UDim2.new(0.7, -20, 0.7, -45)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = "//Made by Epical//Paste your require here//"
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 14
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+TextBox.ClearTextOnFocus = false
+TextBox.MultiLine = true
+
+SidePanel.Parent = Frame
+SidePanel.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+SidePanel.Position = UDim2.new(0.7, 10, 0, 35)
+SidePanel.Size = UDim2.new(0.3, -20, 0.7, -45)
+SidePanel.CanvasSize = UDim2.new(0, 0, 6, 0)
+SidePanel.ScrollBarThickness = 10
+
+local function createButton(parent, text, scriptText)
+    local button = Instance.new("TextButton")
+    button.Parent = parent
+    button.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    button.Size = UDim2.new(1, 0, 0, 25)
+    button.Font = Enum.Font.SourceSans
+    button.Text = text
+    button.TextColor3 = Color3.fromRGB(255, 255, 255)
+    button.TextSize = 14
+    button.MouseButton1Click:Connect(function()
+        local playerName = game.Players.LocalPlayer.Name
+        local finalScript = scriptText:gsub("pfzq", playerName):gsub("noobplayergg_TH", playerName):gsub("c00lkidd", playerName):gsub("Subaru112's SCP-106", playerName):gsub("Dark_Eccentric", playerName)
+        game.ReplicatedStorage.RemoteEvent:FireServer(finalScript)
+    end)
+    return button
+end
+
+local buttons = {
+    {text = "Shiba ultmt", script = 'require(106482539335115)("")'},
+    {text = "Idk", script = 'require(2841156534):Fire("Player","i baked you a pie")'},
+    {text = "Idk Lol", script = 'require(2876526687).load("0eqr")'},
+    {text = "Sugma V1 GUI", script = 'require(16669178176)("pfzq")'},
+    {text = "Manuall Hax GUI", script = 'require(6712240276).yo("pfzq")'},
+    {text = "Gosh GUI", script = 'require(16668835270).load("pfzq")'},
+    {text = "PLUR GUI", script = 'require(6280142988).Purl("pfzq")'},
+    {text = "Ark Of Hades GUI", script = 'require(16988738909)("pfzq")'},
+    {text = "Rocket GUI", script = 'require(2513295250).load("pfzq")'},
+    {text = "SS GUI", script = 'require(2937437253).load("pfzq")'},
+    {text = "UVG GUI", script = 'require(6280136701).load("pfzq")'},
+    {text = "JuanaV3 GUI", script = 'require(4924065675):Fire("pfzq")'},
+    {text = "C00lKidd GUI", script = 'require(16991244705):Fire("pfzq","c00lkidd")'},
+    {text = "Bee's SS GUI", script = 'require(2670071430).load("pfzq")'},
+    {text = "Dex ultimate Debugging Suite", script = 'require(16662779782)("pfzq")'},
+    {text = "Classic GUI", script = 'require(2930633918).load("pfzq")'},
+    {text = "Nilzer V5 GUI", script = 'require(7054827484).load("pfzq")'},
+    {text = "Utgv1 Abusive guns GUI", script = 'require(6447503730)("pfzq")'},
+    {text = "saness", script = 'require(6058266648).load("noobplayergg_TH")'},
+    {text = "Oof sans", script = 'require(5245462839).Dark("noobplayergg_TH")'},
+    {text = "Rainbow stand", script = 'require(5367599184).Dark("noobplayergg_TH")'},
+    {text = "Nuke 2 minute", script = 'require(4867426485)("noobplayergg_TH")'},
+    {text = "SS chara", script = 'require(5845670816).load("noobplayergg_TH")'},
+    {text = "Virus Ads", script = 'require(6707668066).virus("noobplayergg_TH")'},
+    {text = "The Sledge Hammer", script = 'require(8038037940).CLoad("noobplayergg_TH")'},
+    {text = "Minecraft Sword", script = 'require(5300507859).Dark("noobplayergg_TH")'},
+    {text = "BanHammer ( REAL BAN )", script = 'require(5448035802).Hammer("noobplayergg_TH","BanHammer")'},
+    {text = "Imposter", script = 'require(5828018389)("noobplayergg_TH")'},
+    {text = "Arsenal Delinquent", script = 'require(1525600089).goldentec("noobplayergg_TH")'},
+    {text = "Flying Spaceship", script = 'require(4922372692).load("noobplayergg_TH")'},
+    {text = "ro-bio visus", script = 'require(4821018129).Virus("noobplayergg_TH")'},
+    {text = "ro-bio injecter", script = 'require(4821022303).Inject("noobplayergg_TH")'},
+    {text = "Server Admin (Rare)", script = 'require(4665394711).load("noobplayergg_TH")'},
+    {text = "TV screen", script = 'require(5928380931).load("noobplayergg_TH")'},
+    {text = "Tank Attack", script = 'require(7203746402).tonk("noobplayergg_TH")'},
+    {text = "Minions Army", script = 'require(3224813865).load("noobplayergg_TH")'},
+    {text = "Egg Man Server Crasher (Legendary)", script = 'require(5597042098).eggman("noobplayergg_TH")'},
+    {text = "Egg Man Server Crasher Fast", script = 'require(5597042098).eggman2("noobplayergg_TH")'},
+    {text = "Polish Cow Server Destroyer Leak (GODly)", script = 'require(7881477181).Polish_Cow()'},
+    {text = "Katanarist", script = 'require(8038057972).CLoad("noobplayergg_TH")'},
+    {text = "Minecraft Potions", script = 'require(8753925776)("noobplayergg_TH",true)'},
+    {text = "Btt console", script = 'require(7027350608).LoadMain("noobplayergg_TH")'},
+    {text = "Infection Virus", script = 'require(8317917339).Infection("noobplayergg_TH")'},
+    {text = "The Third Dimension", script = 'require(9254836590)("noobplayergg_TH")'},
+    {text = "Info Tracker", script = 'require(8979405124)("noobplayergg_TH")'},
+    {text = "Fling Tool", script = 'require(12574084532).fling("noobplayergg_TH")'},
+    {text = "A-60", script = 'require(12180555239).rooms("noobplayergg_TH")'},
+    {text = "Nightmare", script = 'require(4943481014).Nightmare("noobplayergg_TH")'},
+    {text = "turret", script = 'require(9605591856).TurretPlacer("noobplayergg_TH")'},
+    {text = "Squidward Bomb", script = 'require(11838049109).squidBomb("Dark_Eccentric", false)'},
+    {text = "Nezur", script = 'require(100227259985025):Ex("pfzq")'},
+    {text = "SS gui 2", script = 'require(6896725229).ok("pfzq")'},
+    {text = "Project Codiel", script = 'require(116224294360362)("pfzq")'},
+    {text = "Polaria", script = 'require(123255432303221):Pload("pfzq")'}
+}
+
+for i, buttonInfo in ipairs(buttons) do
+    local button = createButton(SidePanel, buttonInfo.text, buttonInfo.script)
+    button.Position = UDim2.new(0, 0, 0, (i - 1) * 30)
+end
+
+ExecuteButton.Parent = Frame
+ExecuteButton.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+ExecuteButton.Position = UDim2.new(0, 10, 1, -35)
+ExecuteButton.Size = UDim2.new(0.2, -10, 0, 25)
+ExecuteButton.Font = Enum.Font.SourceSans
+ExecuteButton.Text = "Execute"
+ExecuteButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ExecuteButton.TextSize = 14
+
+HideButton.Parent = Frame
+HideButton.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+HideButton.Position = UDim2.new(0.2, 10, 1, -35)
+HideButton.Size = UDim2.new(0.2, -10, 0, 25)
+HideButton.Font = Enum.Font.SourceSans
+HideButton.Text = "Hide"
+HideButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+HideButton.TextSize = 14
+
+ClearButton.Parent = Frame
+ClearButton.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+ClearButton.Position = UDim2.new(0.7, 10, 1, -35)
+ClearButton.Size = UDim2.new(0.3, -20, 0, 25)
+ClearButton.Font = Enum.Font.SourceSans
+ClearButton.Text = "Clear"
+ClearButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ClearButton.TextSize = 14
+
+-- Função para executar o script
+ExecuteButton.MouseButton1Click:Connect(function()
+    local scriptText = TextBox.Text
+    game.ReplicatedStorage.RemoteEvent:FireServer(scriptText)
+end)
+
+-- Função para limpar a área de texto
+ClearButton.MouseButton1Click:Connect(function()
+    TextBox.Text = ""
+end)
+
+-- Função para fechar a GUI
+CloseButton.MouseButton1Click:Connect(function()
+    ScreenGui:Destroy()
+end)
+
+-- Função para minimizar a GUI
+MinimizeButton.MouseButton1Click:Connect(function()
+    if Frame.Size == UDim2.new(0, 600, 0, 400) then
+        Frame.Size = UDim2.new(0, 600, 0, 25)
+    else
+        Frame.Size = UDim2.new(0, 600, 0, 400)
+    end
+end)
+
+-- Função para alternar a visibilidade do texto
+local isHidden = false
+HideButton.MouseButton1Click:Connect(function()
+    if isHidden then
+        TextBox.TextTransparency = 0
+        HideButton.Text = "Hide"
+    else
+        TextBox.TextTransparency = 1
+        HideButton.Text = "Show"
+    end
+    isHidden = not isHidden
+end)
