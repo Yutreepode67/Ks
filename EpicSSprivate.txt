@@ -87,6 +87,7 @@ end
 
 local buttons = {
     {text = "Shiba ultmt", script = 'require(106482539335115)("")'},
+{text = "Project Eup", script = 'require(96844128852058).euphoria("")'},
     {text = "Idk", script = 'require(2841156534):Fire("Player","i baked you a pie")'},
     {text = "Idk Lol", script = 'require(2876526687).load("0eqr")'},
     {text = "Sugma V1 GUI", script = 'require(16669178176)("pfzq")'},
