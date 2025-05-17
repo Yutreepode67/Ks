@@ -1,0 +1,70 @@
+-- Roblox Script Hub UI
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIListLayout = Instance.new("UIListLayout")
+local Title = Instance.new("TextLabel")
+
+-- Create the ScreenGui
+ScreenGui.Name = "ScriptHub"
+ScreenGui.Parent = game.CoreGui
+
+-- Main Frame
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Frame.Position = UDim2.new(0.3, 0, 0.3, 0)
+Frame.Size = UDim2.new(0, 250, 0, 300)
+Frame.Active = true
+Frame.Draggable = true
+
+UICorner.Parent = Frame
+
+-- Title
+Title.Name = "Title"
+Title.Parent = Frame
+Title.Text = "Script Hub"
+Title.Size = UDim2.new(1, 0, 0, 30)
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1
+Title.Font = Enum.Font.SourceSansBold
+Title.TextSize = 22
+
+-- Layout for buttons
+UIListLayout.Parent = Frame
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 5)
+
+-- Function to create buttons
+local function createScriptButton(name, scriptCode)
+	local Button = Instance.new("TextButton")
+	Button.Parent = Frame
+	Button.Size = UDim2.new(1, -10, 0, 40)
+	Button.Position = UDim2.new(0, 5, 0, 0)
+	Button.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+	Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Button.Font = Enum.Font.SourceSans
+	Button.TextSize = 18
+	Button.Text = name
+	Button.MouseButton1Click:Connect(function()
+		loadstring(scriptCode)()
+	end)
+	
+	local corner = Instance.new("UICorner")
+	corner.Parent = Button
+end
+
+-- Example scripts
+createScriptButton("Fly Script", [[
+loadstring(game:HttpGet('https://pastebin.com/raw/KbXhFyU4'))()
+]])
+
+createScriptButton("Infinite Yield", [[
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+]])
+
+createScriptButton("ESP Script", [[
+loadstring(game:HttpGet("https://kiriot22.com/releases/ESP.lua"))()
+]])
+
+-- Add more scripts by duplicating this:
+-- createScriptButton("Name", [[script]])
