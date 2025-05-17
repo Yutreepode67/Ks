@@ -1,0 +1,444 @@
+---
+ADMINS, GUIS AND EXECUTORS
+---
+Polaria - require(123255432303221):Pload("user")
+Secret Service Panel - require(17073274775)("pfzq")
+Secret Service Panel DEX Version - require(16977144399)("pfzq")
+Secret Service Administration - require(16668858335).skid("pfzq","ssa")
+Old Secret Service Administration - require(16668984909).load("pfzq","1994 days on roblox")
+Old Secret Service Panel - require(17632411730){Owners={"pfzq"},Prefix=';'}
+Obunga -require(97971729290214)()
+Obuga Citizen One - require(123134147078298)()
+DreamyBull Gui , By Hamad - require(18790530478)("pfzq")
+infinitie yield - require(7634392335)("pfzq")
+Fbi executor - require(18178393297)("pfzq")
+SS v2 So Cool - require(6405516751).load("RobloxBoy4762") 
+primadon - require(17513697824)("Username")
+AOS Admin - require(16661955141):Fire("pfzq")
+ur bads AOS Admin - require(16771067578):Fire("pfzq")
+Mr Bean admin - require(16638501761){Owners={"pfzq"},Prefix=';'}
+Mcdonalds Admin - require(16668583391){Owners={"pfzq"},Prefix=';'}
+Strato admin - require(6590963180).load("pfzq")
+V3rmillion Admin - require(16991153209).load("pfzq")
+MML Admin -  require(7573703059).MMLHax("pfzq")
+Fe hax - require(17472456139).fehax("yourname")
+Nexus Admin - require(16988699893)("pfzq")
+Bee Exoliner admin V2 - require(2969225161):Fire("Nob","pfzq")
+Intent Admin - require(16988255787):Fire("Intent","pfzq")
+Frank's Admin - require(16988244323):FranksAdmin("Frank","pfzq")
+Infyield Admin - require(4832971989)("RobloxBoy4762")
+Moon's Infyield Admin - require(16988709094)("pfzq")
+Cooks Infyield Admin - require(16662939551)("pfzq")
+Adonis Admin - require(16662768931):GetAdmin("pfzq","Hi??")
+Quantom Admin - require(3048207279):Fire("kermitwashere,ok","pfzq")
+Rocky2U Admin - require(16662837893).AddRocky("pfzq")
+Bilbert SS - require(16988766924)("pfzq") 
+Loaf Ss - require(6405516751).load("pfzq")
+Doot Ss - require(16662883722).hii("pfzq")
+Sigma Ss - require(4982992957):Fire("pfzq")
+Herobrine - require(17601661042)("pfzq")
+NI-CISYNIA - require(7324976391).load("pfzq")
+Cloud - require(5665978099)("pfzq")
+Morph Magic GUI - require(4941950065)("pfzq")
+Sugma V1 GUI - require(16669178176)("pfzq")
+Manuall Hax GUI - require(6712240276).yo("pfzq")
+Gosh GUI - require(16668835270).load("pfzq")
+PLUR GUI - require(6280142988).Purl("pfzq")
+Ark Of Hades GUI - require(16988738909)("pfzq") 
+Rocket GUI - require(2513295250).load("pfzq")
+SS GUI - require(2937437253).load("pfzq")
+UVG GUI - require(6280136701).load("pfzq")
+JuanaV3 GUI - require(4924065675):Fire("pfzq")
+C00lKidd GUI - require(16991244705):Fire("pfzq","c00lkidd")
+Bee's SS GUI - require(2670071430).load("pfzq") 
+Dex ultimate Debugging Suite - require(16662779782)("pfzq")
+Classic GUI - require(2930633918).load("pfzq")
+Nilzer V5 GUI - require(7054827484).load("pfzq")
+Utgv1 Abusive guns GUI - require(6447503730)("pfzq")
+Gun GUI - require(16662820067)("pfzq","BEANMANBEANMAN")
+Tubers93 Gun GUI - require(6677765693)("pfzq","welovedooter")
+Stummy and Watheck Gun GUI - require(16662919029)("pfzq","how")
+best hub- require(4634558715)("pfzq")
+BuilderX Hub - require(16668530286).BX("pfzq")
+Topkek V5.2 - require(10127180199)("pfzq")
+Topkek V5 - require(6449959779)("pfzq")
+Topkek V4 - require(4253460888).die("pfzq")
+Dex -  require(2701572481):Fire("pfzq")
+Developer Console 2.0- require(16668841976).load("pfzq")
+Bee's Dex - require(2919395703).load("pfzq")
+Chathax - require(2942451291):Yee("pfzq")
+Project ligma 2 - require(6595545318)(pfzq")
+Key Logger - require(7098251271)("pfzq")
+hark V2 - require(4770241281):hark("pfzq")
+Hat remover - require(3052589161).load("pfzq")
+Ro Exploit v6 - require(4159766103).load("pfzq")
+Ro-Exploit v7 - require(6822778802)("pfzq")
+Launcher - require(4878995989)("pfzq")
+Noot-Noot- require(2113801730).load("pfzq")
+Chat Bypass - require(16991207514)()
+Love Communism - require(881919150)()
+Script Logger - require(5098133040):FirePire("pfzq:Pire")
+Chat GUI - require(16662775615)("pfzq")
+Ban Remote - require(6244072289).load("pfzq")
+Jumpscare: require(17107085030).jumpscare("Players name here")
+Teletubbies Jumpscare: require(17118822859).gui()
+Jeff the Kiler Jumpscare: require(17118930276).gui()
+Antiban - require(2788315378).load("pfzq")
+new project stigma watermark: require(16662947197).lol("pfzq")
+Crossmod Ya - require(4294379983)("pfzq")
+Shutdown - require(2982093974):Shutdown()
+Kohls Rank Owner - _G.setPower -Fire("pfzq", 6)
+Nepaha - require(4942359996):nepaha(5127063380,1,3)
+hark stamper - require(13214021276).stamper(game -GetService("Players").LocalPlayer)
+tool stamper - require(17015419876)("pfzq")
+Stamper tool 2 - require(17107064578)("pfzq")
+Converted Btools - require(16530393933)("pfzq")
+
+
+---
+MODULES
+—
+Teddy Trap - require(6291736680)("pfzq")
+Whispy Woods - require(17072075353)("pfzq")
+WTRB - require(17073309179).asd()
+Devoyance V4 - require(17015453713)("pfzq")
+Star Glitcher: require(17110304506):Fire("pfzq")
+Knife Murderer - require(17000621196)("pfzq")
+VR Hands V2 - require(16991174162).LoadHands("pfzq")
+VR Hands - require(16991188827).LoadHands("pfzq")
+bus - require(16494104046)("pfzq")
+old bus - require(4302281183)("pfzq")
+steve - require(16756009191).mc("pfzq")
+Arc of mystics - require(16571960080)("pfzq")
+bulldozer - require(16571914488)("pfzq")
+Primadon - require(15851028325)("pfzq")
+Grandosla - require(16492539574)("pfzq")
+Trainset- require(15708038439)("pfzq")
+Dimensiona Glitcher - require(6058166660)("pfzq")
+Boat - require(4118900723)("pfzq")
+Catholic Mario - require(2936927437).load("pfzq")
+Asgpro - require(7861620568).load("pfzq")
+Mustard Gas - require(16668612817).load("pfzq")
+Camera Chat Viewer - require(16668701301)("pfzq")
+SCP 173 - require(17234454946).load("pfzq")
+Venti - require(16991146409)("pfzq")
+dong - require(16662786555).load("pfzq")
+Rufus FB Beryl Gun - require(7632927778).Gunnis("pfzq")
+Remington 870- require(4879817593)("pfzq")
+Baby Thrower - require(16991251417)("pfzq")
+Big tornado - require(2938226981).load("pfzq")
+Money Bags - require(8712553243).load("pfzq")
+DOGE Summoner - require(16662812199).fehack("pfzq")
+Hark Guns - require(6930300577)("pfzq")
+Mr Bean Decals - require(16668594829).map()
+Snake - require(10504523281)("pfzq")
+Mario Decals - require(16991126811)("pfzq")
+Flamethrower - require(9306185951).load("pfzq")
+Koolaid Sizer - require(7695034125).load("Koolaid", "pfzq")
+RockNRoll - require(9306045365).load()
+CSGO Guns - require(4207271766).load("pfzq")
+Dababy mobile - require(6604157329).dababymobile("pfzq")
+Jihad: require(2971552917).load("pfzq")
+Guns - require(2823974237).giveGuns('pfzq')
+Other Guns - require(16668739839).load("pfzq")
+Volcanic Inc Guns - require(16668929184).load("pfzq","asd")
+Red imposter - require(9307026189).load("pfzq")
+Drip goku - require(6331324671).load("pfzq")
+dream - require(6590634930).load("pfzq")
+Pee - require(4709753802).load("pfzq")
+AR-15 - require(16662828437).naenae("pfzq")
+dong - require(2979543081).load('Dong', 'pfzq')
+Catalog Items - require(16668556009).items("pfzq")
+R6 - require(9635947635).load("pfzq")
+Stummy's R6 - require(16669109277):albert("pfzq")
+Worship - require(9423212339).lol()
+Grab Knife V1 - require(16662794620):Fire("pfzq","knife")
+Grab Knife V2 - require(16662799266):Fire("pfzq","knife")
+Grab Knife V3 - require(2699238418):Fire("pfzq")
+Grab Knife V4 - require(16662802057).load("pfzq")
+Dev Uzi - require(16662808456):Fire("pfzq","dev-uzi")
+Bird Wings - require(16668712615):Fire("pfzq","birdwings")
+F3X - require(16662897769).load("pfzq")
+SubStrike - require(14775634069)("pfzq")
+Holiday Feel - require(4502358827).load("pfzq")
+ASG Glitcher - require(4721760220):yes("pfzq")
+Auerus Sword: require(5428886940)('pfzq')
+lightborn - require(16639115097)("pfzq")
+S400 Missile Airstrike - require(10791446752).s400("pfzq")
+RC7 Cloud - require(16668626906).load("pfzq")
+Nightmare - require(5540630099).load("Night", "pfzq")
+Some nigga flying - require(9353485888).smokio("pfzq")
+Agent Gears - require(16668718607):Start("pfzq","AAA")
+Nuclear Missile - require(7804327506).amigodogodenot123("pfzq")
+QuadDoom - require(5987029970)("Quad", "pfzq")
+Mech Helkren - require(5987029970)("mechv3", "pfzq")
+sledgehammer - require(8038037940).CLoad("pfzq")
+Random Sniper - require(6141052467).load("pfzq")
+Reaper Apocalypse Gun - require(9439511627).load("pfzq")
+Hark - require(16661967932).load()
+Mareno - require(5617162803)("mareno", "pfzq")
+Sonic - require(16668806562).you("pfzq")
+Xester - require(2918747265).load("pfzq")
+Guitar Vizualiser - require(6494016015).ez("pfzq")
+Electric Gun - require(6494159046).load("pfzq")
+Star Glitcher 1.0 - require(9442292486).load("pfzq")
+Star Glitcher 2.0 - require(4749896781).no("pfzq")
+Project Reaper - require(6494001763).load("pfzq")
+Virus - require(16661962908).load("pfzq")
+Internal War - require(9359921623).load("pfzq")
+Infection Virus - require(8317917339).Infection("pfzq")
+Tesseract- require(4611972434).load("pfzq")
+Dual Ultima - require(9439014627).load("pfzq")
+Jarred Ultra Mech - require(9408190487).load("pfzq")
+Orb titan - require(9438952843).load("pfzq")
+Sociopath - require(4611999946).load("pfzq")
+SpiderMan With Gun - require(5044313504).load("pfzq")
+Shotgun - require(6230507140).load("pfzq")
+Neurotic - require(5617600468).load("pfzq")
+Charlie Chaptin - require(6606289064).load("pfzq")
+Gattai Zamasu - require(6424791174).load("pfzq")
+SHINI-G4-MI - require(4661785318).load("pfzq")
+Vereus - require(4875169740).load("pfzq")
+Goku - require(7433042949)("pfzq")
+USSR Helicopter - require(5861768566).import()
+Kill Machine - require(6375409514).load("pfzq")
+TeaPot- require(5982007129).load("pfzq")
+Dark Wings - require(9439278540).load("pfzq")
+Music Box - require(0x1111c26b0)['eliza']('pfzq');
+Goner - require(4513235536).G("pfzq")
+Swords - require(6215755057).load("pfzq")
+rocket sword of old - require(6496754050).load("pfzq")
+Shaluster - require(6494107376).load("pfzq")
+Bacon hair Army - require(9439056539).load("pfzq")
+You are an idiot - require(8222129769).youareanidiot("pfzq")
+Wasp Fighter Jet - require(5860060462).load("pfzq")
+Ultimate titan - require(6494164528).load("pfzq")
+john Doe - require(2845929020).ooga("lolmy12114")
+Neko - require(6029387696).neko("pfzq")
+Hacker X - require(5641200549).load("pfzq")
+Omni God - require(6494181104).load("pfzq")
+Patrick - require(6494144008).load("pfzq")
+Hammer - require(6494024548).load("pfzq")
+Binary Great Sword: require(9711836572).load("pfzq")
+Lua Hammer - require(9439267918).load("pfzq")
+Jojo Bizzare - require(6494123768).load("pfzq")
+Cop - require(9439217371).load("pfzq")
+Star Glitcher spectrum - require(2930987220).load('pfzq')
+Hello Kitty MrbyeBye - require(4977641125).mbye("pfzq")
+Viridis Super Strong Armor - require(9711843894).load("pfzq")
+memes animations - require(2860424822)("pfzq","memes")
+Koolaid Man - require(2923173766):Kermit('pfzq',game.JobId)
+Kb - require(7107797840).load("pfzq")
+Red Claw - require(9439285251).load("pfzq")
+The Alchemist - require(6224178099).load("pfzq")
+Hand Monster - require(9439307767).load("pfzq")
+Memento MorI - require(7266243611).eliza("pfzq")
+Super Strong Laser Mech - require(9711849049).load("pfzq")
+Shrike - require(6329652196):run("pfzq","shrike")
+Giant Noob head - require(6269838898).load()
+Thanos Gauntlet- require(9439076702).load("pfzq")
+Bleach - require(16668687217).load("pfzq")
+Olisauce Remote Control - require(9439040673).load("pfzq")
+Flying Ship - require(6842540352).load("pfzq")
+Cyclops Preech - require(9344514982).load("pfzq")
+Cyclops Creep - require(9439416444).load("pfzq")
+Brutal Overlord: require(5599450138).load("pfzq")
+Neptunian V - require(4453491513).load("pfzq")
+Atlas Axe - require(6438361301).load("pfzq")
+Blue Puncher - require(9359664666).load("pfzq")
+Master of Stars - require(6494239587).load("pfzq")
+cool glitcher - require(5732682168).fehack("pfzq")
+Omega Sword - require(6496599157).load("pfzq")
+Dual pink guns - require(9439237199).load("pfzq")
+Gunjourer - require(9344120548).load("pfzq")
+Ice Cream Sword - require(9439203970).load("pfzq")
+Shotgun - require(3956835082).load("pfzq")
+Airplane Falling - require(6493987727).load("pfzq")
+Mini rocket - require(6494007732).load("pfzq")
+bug: require(4977634471):bruh("pfzq")
+Aureola - require(5732671544).fehack("pfzq")
+Flash - require(6493968882).load("pfzq")
+Mech helkrenV2 - require(5987029970)("mechHV2", "pfzq")
+Felipe - require(5933208733).load("pfzq")
+bleach - require(6494149576).load("pfzq")
+Seven Stars - require(6496771297).load("pfzq")
+nuke - require(6494102851).load("pfzq")
+Helikopter - require(6494111815).load("pfzq")
+Cleetus - require(5464614479).load("pfzq")
+Ban Hanner - require(6494024548).load("pfzq")
+Chainsaw - require(6494138236).load("pfzq")
+Physco Knife - require(6494130175).load("pfzq")
+Thanos - require(6030031466).Load("pfzq")
+
+---
+SCRIPTS
+---
+
+printidentify()
+
+
+
+
+warn('hi')
+
+
+
+
+print('hi')
+
+
+
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+
+
+
+
+
+
+game.Players.LocalPlayer.Character.Humanoid.Health = 0
+
+
+local player = "name here"
+local character = game.Players[player].Character
+if character then
+    character:BreakJoints()
+end
+
+
+game.Players.LocalPlayer.Character:BreakJoints()
+
+
+workspace:ClearAllChildren()
+
+
+local player = "name here"
+game.Players[player].Character.Humanoid.Health =  0
+
+
+local plr = game.Players.LocalPlayer
+local character = plr.Character or plr.CharacterAdded:Wait()
+local humanoidRootPart = character:WaitForChild('HumanoidRootPart')
+
+local ws = 500
+
+local function spin()
+    while true do
+        humanoidRootPart.CFrame = humanoidRootPart.CFrame * CFrame.Angles(0, math.rad(ws), 0)
+        wait(0.1)
+    end
+end
+spin()
+
+
+
+
+
+a = function() end
+print(a)
+
+
+
+
+
+game.Chat:Chat(game.Players.LocalPlayer.Character.Head, 'say anything here')
+
+
+
+
+
+game.Players.LocalPlayer.PlayerGui['NameUI'..game.Players.LocalPlayer.Name]:Remove()
+
+
+
+
+game.Workspace.Gravity = 0
+Humanoid.RigType = Enum.HumanoidRigType.r6
+
+
+
+
+
+
+
+
+
+
+
+
+local a = Instance.new('Message')
+a.Text = 'go fuck yourself'
+a.Parent = workspace
+wait(3)
+a:Destroy()
+
+
+
+
+
+
+local a = Instance.new('Message')
+a.Text = 'ambatukam'
+a.Parent = workspace
+wait(4)
+a.Text = 'Nigger93 World Tour'
+Wait(5)
+a:Destroy()
+
+
+
+wait('2')
+local gameId = 
+
+for i, Player in pairs(game.Players -GetPlayers()) do
+    if Player:IsA('Player') then
+        game:GetService('TeleportService'):Teleport(gameId, Player)
+    end
+end
+
+
+
+
+
+
+local plr = game:GetService('Players'):FindFirstChild('Username')
+if plr.Character.Humanoid.RigType == Enum.HumanoidRigType.R15 then
+            local Main = game.Players:GetHumanoidDescriptionFromUserId(plr.CharacterAppearanceId)
+            local morph = game.Players:CreateHumanoidModelFromDescription(Main, Enum.HumanoidRigType.R6)
+            morph:SetPrimaryPartCFrame(plr.Character.PrimaryPart.CFrame)
+            morph.Name = plr.Name
+            plr.Character = morph
+            morph.Parent = workspace    
+end
+
+---
+MAPS
+---
+
+2006 map - require(6929171488).loadMap()
+Buddha Map - require(4704979605).lol()
+Blames Map - require(6418886263).kfc()
+2076 Town - require(7569443962).setup()
+Sword Brickbattle VII - require(6675792322).sfoth()
+Mcdonalds - require(3168737443).load()
+Dance Devils Mom Roleplay - require(6599453106).load()
+Forest - require(16991266419)()
+Frappe - require(17110662847).asd()
+Palace - require(17110631120).asd()
+Sex - require(17110649161).asd()
+Roblox HQ - require(17110658137).asd()
+Arc Mage - require(17110637363).asd()
+KFC - require(16662863386).kfc()
+Indian Scam Center - require(16662858613).load("RobloxBoy4762")
+Lil Nas X Concert - require(16662877421).panini()
+Waterpark - require(4781260949)()
+City Life - require(16668889289).asd()
+Burger King - require(16668546367).asd()
+Walmart: require(17110655911).asd()
+Spongebob - require(16668637411).asd()
+Zombie Apacolaypse - require(12653566767).load("RobloxBoy4762")
+XXXTentacion - require(17110698446).asd()
+770- require(16668880727).load()
+Target - require(16668899769).load("RobloxBoy4762")
+Arena - require(16668946128).asd() 
+
+Credits TOO : Citizen . Producer . Ceez . Idris . Hamad . Hark aanddd sTummy 
