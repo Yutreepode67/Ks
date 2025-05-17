@@ -1,0 +1,41 @@
+local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/WRUyYTdY"))()
+
+local Window = OrionLib:MakeWindow({
+    Name = "Script hub for exec",
+    HidePremium = false,
+    SaveConfig = true,
+    ConfigFolder = "Private"
+})
+
+print("Successfully executed.")
+
+local Tab = Window:MakeTab({
+    Name = "Info",
+    Icon = "rbxassetid://7733964640",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "RepO"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "Welcome " .. playerName .. "! This is the best hub!",
+    Callback = function() end
+})
+
+Tab:AddButton({
+    Name = "Grab knife v4",
+    Callback = function()
+        setclipboard("loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Grab-knife-v4-24753"))()")
+    end
+})
+
+Tab:AddButton({
+    Name = "000 hub",
+    Callback = function()
+        setclipboard("loadstring(game:HttpGet("https://raw.githubusercontent.com/swanhtetm/797-Hub/refs/heads/main/000Hub%20Beta%20Fix.lua.txt"))()")
+    end
+})
