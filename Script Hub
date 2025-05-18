@@ -29,13 +29,13 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "Grab knife v4",
     Callback = function()
-        setclipboard("loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Grab-knife-v4-24753"))()")
+        setclipboard("loadstring(game:HttpGet('https://rawscripts.net/raw/Universal-Script-Grab-knife-v4-24753'))()")
     end
 })
 
 Tab:AddButton({
     Name = "000 hub",
     Callback = function()
-        setclipboard("loadstring(game:HttpGet("https://raw.githubusercontent.com/swanhtetm/797-Hub/refs/heads/main/000Hub%20Beta%20Fix.lua.txt"))()")
+        setclipboard("loadstring(game:HttpGet('https://raw.githubusercontent.com/swanhtetm/797-Hub/refs/heads/main/000Hub%20Beta%20Fix.lua.txt'))()")
     end
 })
