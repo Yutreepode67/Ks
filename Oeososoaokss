@@ -1,0 +1,56 @@
+local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/WRUyYTdY"))()
+
+local Window = OrionLib:MakeWindow({
+    Name = "Client Replication Best Gui",
+    HidePremium = false,
+    SaveConfig = true,
+    ConfigFolder = "Private"
+})
+
+print("Successfully executed.")
+
+local Tab = Window:MakeTab({
+    Name = "Info",
+    Icon = "rbxassetid://7733964640",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "RepO"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "Welcome " .. playerName .. "! This is the best hub!",
+    Callback = function() end
+})
+
+Tab:AddButton({
+    Name = "Remotespy",
+    Callback = function()
+        loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "admin",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "RemoteSpy2",
+    Callback = function()
+        local owner = "Hosvile"
+local branch = "revision"
+
+local function webImport(file)
+    return loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/%s/MC-Hydroxide/%s/%s.lua"):format(owner, branch, file)), file .. '.lua')()
+end
+
+webImport("init")
+webImport("ui/main")
+    end    
+})
