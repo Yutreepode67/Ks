@@ -1,49 +1,58 @@
-local OrionLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownkellymc1/Orion/main/source'))()
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 
-local Window = OrionLib:MakeWindow({
-    Name = "Real fe",
-    HidePremium = false,
-    SaveConfig = true,
-    ConfigFolder = "Private"
-})
 
-print("Successfully executed.")
+local MainWindow = Rayfield:CreateWindow({
+	Name = "Executor Parts",
+	LoadingTitle = "Loading...",
+	LoadingSubtitle = "by Falxe",
+	ConfigurationSaving = {
+	   Enabled = true,
+	   FolderName = nil, -- Create a custom folder for your hub/game
+	   FileName = "Executor"
+	},
+	Discord = {
+	   Enabled = false,
+	   Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD.
+	   RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+	},
+	KeySystem = false, -- Set this to true to use our key system
+	KeySettings = {
+	   Title = "McDonalds Hub",
+	   Subtitle = "Key System",
+	   Note = "Key: McDonalds",
+	   FileName = "SiriusKey",
+	   SaveKey = true,
+	   GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+	   Key = "McDonalds"
+	}
+ })
 
-local Tab = Window:MakeTab({
-    Name = "Info",
-    Icon = "rbxassetid://7733964640",
-    PremiumOnly = false
-})
 
-local Section = Tab:AddSection({
-    Name = "RepO"
-})
+ local MainTab = MainWindow:CreateTab("Main", 4483362458) -- Title, Image
 
-local playerName = game.Players.LocalPlayer.Name
 
-Tab:AddButton({
-    Name = "Welcome " .. playerName .. "! This is the best hub!",
-    Callback = function() end
-})
+ local Button = MainTab:CreateButton({
+	Name = "admin'",
+	Callback = function(v)
+		v = loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end,
+ })
 
-Tab:AddButton({
-    Name = "Remotespy",
-    Callback = function()
-        loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua"))()
-    end    
-})
 
-Tab:AddButton({
-    Name = "admin",
-    Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-    end    
-})
 
-Tab:AddButton({
-    Name = "RemoteSpy2",
-    Callback = function()
-        local owner = "Hosvile"
+ local Button = MainTab:CreateButton({
+	Name = "Remote spy",
+	Callback = function(v)
+		v = loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua"))()
+	end,
+ })
+
+
+
+local Button = MainTab:CreateButton({
+	Name = "Remotespy2'",
+	Callback = function(v)
+		v = local owner = "Hosvile"
 local branch = "revision"
 
 local function webImport(file)
@@ -52,5 +61,5 @@ end
 
 webImport("init")
 webImport("ui/main")
-    end    
-})
+	end,
+ })
